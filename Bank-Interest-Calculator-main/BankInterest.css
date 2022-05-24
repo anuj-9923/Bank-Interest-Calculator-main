@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    background-color: rgb(247, 247, 73);
+}
+center{
+    font-size: medium;
+}
+header{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+table, th, td{
+    border: 2px solid rgb(244, 248, 250);
+    border-collapse: callapse;
+}
+table{
+    box-shadow: 6px 0px 10px 5px rgb(6,1,1);
+    background-color: rgb(45, 221, 75);
+    margin-right: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+td, th, tr{
+    padding: 20px;
+    color: rgb(77, 11, 232);
+    font-size: 20px;
+}
+
+td{
+    font-style: ;
+    color: rgb(33, 38, 39);
+    font-weight: 800;
+}
+
+th{
+
+}
+
+button{
+    margin-top:15px;
+    position: relative;
+    margin-left:700px ;
+    margin-bottom : 10px;
+    padding : 5px 15px 5px 15px;
+    border-color: rgb(161, 163, 37);
+    font-weight: 900;
+    color:rgb(45, 52, 249);
+    cursor: pointer;
+
+}
+
+
+.Note{
+    margin: 30px 10px 10px 10px; 
+    text-align:center;
+    border-style:solid;
+    border-color: rgb(50, 34, 31);
+    border-width:2px;
+    color:rgb(20, 19, 19);
+    background-color: rgb(247, 242, 242);
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
